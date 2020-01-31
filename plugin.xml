@@ -20,7 +20,7 @@
     <!-- Android Configuration -->
     <platform name="android">
 
-        <config-file target="res/xml/config.xml" parent="/*">
+        <config-file target="src/main/res/xml/config.xml" parent="/*">
             <feature name="BraintreePlugin">
                 <param name="android-package" value="net.justincredible.BraintreePlugin" />
             </feature>
